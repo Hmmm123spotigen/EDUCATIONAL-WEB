@@ -1,0 +1,127 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif
+}
+
+#root {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    display: flex
+}
+
+.show-focus-outlines :focus {
+    outline: auto
+}
+
+.flex {
+    display: flex
+}
+
+.wrap {
+    flex-wrap: wrap
+}
+
+.flex-column {
+    flex-direction: column;
+    display: flex
+}
+
+.hc {
+    justify-content: center
+}
+
+.vc {
+    align-items: center
+}
+
+.between {
+    justify-content: space-between
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.hidden {
+    display: none
+}
+
+.light-shadow {
+    box-shadow: 0 4px 14px rgba(0,0,0,.2)
+}
+
+.medium-shadow {
+    box-shadow: 0 4px 14px rgba(0,0,0,.3)
+}
+
+.mediumShadowOnHover {
+    transition: all .2s
+}
+
+.mediumShadowOnHover:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,.3)
+}
+
+.bold {
+    font-weight: 700
+}
+
+.maxWidth {
+    width: 100%
+}
+
+.maxHeight {
+    height: 100%
+}
+
+.maxAll {
+    width: 100%;
+    height: 100%
+}
+
+.black {
+    color: #000
+}
+
+.scroll {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto
+}
+
+.scroll-y {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto
+}
+
+.scroll-x {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: 0 0
+}
+
+.disable-scrollbars {
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+.allCaps {
+    text-transform: uppercase
+}
+
+div {
+    overflow-wrap: break-word
+}
+
+#announcements {
+    display: none
+}

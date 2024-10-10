@@ -1,0 +1,39 @@
+* {
+    font-variant: normal!important
+}
+
+@font-face {
+    font-family: Product Sans;
+    src: url(ProductSans.b2d5784e.ttf);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Product Sans;
+    src: url(ProductSansBold.ab258f16.ttf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: GimkitSF;
+    src: url(SF-Pro-Display-Medium.1b1a5bf5.otf);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: GimkitSF;
+    src: url(SF-Pro-Display-Bold.398853e0.otf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: GimkitSF;
+    src: url(SF-Pro-Display-Heavy.40b4f9a3.otf);
+    font-weight: 800
+}
+
+@font-face {
+    font-family: GimkitSF;
+    src: url(SF-Pro-Display-Black.88922641.otf);
+    font-weight: 900
+}
